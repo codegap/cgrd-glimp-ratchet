@@ -1196,7 +1196,22 @@ button.button-block {
 /* Required reset of font-size to same as standard body */
 .slider > ul > li > * {
   font-size: 14px;
-}/* Toggle styles (to be used with toggles.js)
+}
+
+/* Text over first slide */
+.slider .slide-text {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+/* Toggle styles (to be used with toggles.js)
 -------------------------------------------------- */
 
 .toggle {
