@@ -1,4 +1,4 @@
-cgrd-readr-ratchet
+cgrd-glimp-ratchet
 =======================
 
-Ratchet version of Readr prototype application
+Ratchet version of Glimp prototype application
