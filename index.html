@@ -21,44 +21,60 @@
     <script src="ratchet.js"></script>
 
 	<style>
-		.intro img, span {
-			display: block;
-			margin: auto;
-			text-align: center;
-			font-size: x-small;
+		/* restyle ratchet list */
+		.list {
+			margin-top: 30px
+		}
+		.list li {
+			padding: 9px;
+			border: none;
+		}
+		.list li:first-child {
+			border: none;
+		}
+		.list li a * {
+			vertical-align: middle;
+			font-size: large;
+		}
+		.list li a img {
+			margin: 0px 10px 0px 20px;
 		}
 	</style>
 
   </head>
   <body>
 
-  <div class="content">  
-    <div class="intro">
-      <img src="img/glimp-142x142.png" />
-      <span>Een Peer-fotoproject</span>
-      <span>Editie 1, 2012-2014</span>
+  <div class="content">
+	<div class="intro" style="text-align:center;font-size:x-small;">
+    	<img src="img/glimp-142x142.png" style="display:block;margin:auto;"/>
+      	<span style="display:block">Een Peer-fotoproject</span>
+      	<span style="display:block">Editie 1, 2012-2014</span>
     </div>
 
-	<div class="slider" style="margin-top: 13px; border: 1px solid lightgrey">
-	  <ul>
+	<div>
+	  <ul class="list">
 		<li>
-			<a href="glimp5.html" data-transition="fade">
-			  <img src="img/glimp-5-320x213.png">
+			<a href="glimp5.html" data-transition="slide-in">
+			  	<img src="img/glimp-5-50x33.png">
+				<span>Ilvy Njiokiktjien</span>
 			</a>
 		</li>
 		<li>
-			<a href="glimp6.html" data-transition="fade">
-			  <img src="img/glimp-6-320x213.png">
+			<a href="glimp6.html" data-transition="slide-in">
+			  	<img src="img/glimp-6-50x33.png">
+				<span>Jasper Fontaine</span>
 			</a>
 		</li>
 		<li>
-			<a href="glimp7.html" data-transition="fade">
-			  <img src="img/glimp-7-320x213.png">
+			<a href="glimp7.html" data-transition="slide-in">
+			  	<img src="img/glimp-7-50x33.png">
+				<span>Aernoud Piepenbrink</span>
 			</a>
 		</li>
 		<li>
-			<a href="glimp8.html" data-transition="fade">
-			  <img src="img/glimp-8-320x213.png">
+			<a href="glimp8.html" data-transition="slide-in">
+			  	<img src="img/glimp-8-50x33.png">
+				<span>Sanne Groenendaal</span>
 			</a>
 		</li>
 	  </ul>
