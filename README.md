@@ -14,14 +14,22 @@ The latter is somewhat broken: ontouchstart and onclick don't play nice together
 For simple, free html hosting, you can use Pancake.io (http://pancake.io) or Google Drive (https://googledrive.com/host/0B716ywBKT84AMXBENXlnYmJISlE/GoogleDriveHosting.html)
 
 
-Local hosting:
 
+Local hosting
 Find out what's your current IP address:
-     ipconfig getifaddr en1
-          (en1 = wireless, use en0 if using UTP)
+
+ipconfig getifaddr en1
+(en1 = wireless, use en0 if using UTP)
+
+
 Host current directory:
-     python -m SimpleHTTPServer 9999
+
+python -m SimpleHTTPServer 9999
+
+
 Point browser to
-     [ip address]:9999
+
+[ip address]:9999
+
 On iPhone, use 'Add to Home Screen' to create an icon on the 'desktop' and cache the app locally.
 
